@@ -26,10 +26,6 @@
       </plugin>
     </plugins>
   <sonar.host.url>http://13.232.245.84:9000/</sonar.host.url>
-  <sonar.language>java</sonar.language>
-  <sonar.scm.provider>git</sonar.scm.provider>
-</properties>
-<plugin>
   <groupId>org.sonarsource.scanner.maven</groupId>
   <artifactId>sonar-maven-plugin</artifactId>
   <version>3.2</version>
