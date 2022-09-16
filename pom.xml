@@ -14,9 +14,10 @@
         <version>3.3</version>
         <configuration>
           <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
-        <plugin>
+      <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <version> 3.3.1</version>
         <configuration>
@@ -25,9 +26,6 @@
         </configuration>
       </plugin>
     </plugins>
-  <artifactId>sonar-maven-plugin</artifactId>
-  <version>3.8</version>
-</plugin>
   </build>
    <distributionManagement>
         <repository>
@@ -38,7 +36,7 @@
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://13.233.90.20:8081/repository/maven-snapshots/</url>
+            <url>http://10.128.0.10:8081/repository/student-snap/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
